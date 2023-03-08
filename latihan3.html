@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan Form</title>
+	</head>
+	<body>
+		<form>
+			<label>Nama:</label>&nbsp;
+			<input type="text" name="nama" value="Masukkan Nama Anda"/><br/>
+			<label>Password:</label>&nbsp;
+			<input type="password" name="password" /><br/>
+			<label>Gender:</label>&nbsp;
+			<input type="radio" name="gender" value="L" checked />&nbsp;Laki-Laki
+			<input type="radio" name="gender" value="P" />&nbsp;Perempuan<br/>
+			<label>Hobby:</label><br/>
+			<input type="checkbox" name="hobby" value="Olahraga" />&nbsp;Olahraga<br/>
+			<input type="checkbox" name="hobby" value="Membaca" checked />&nbsp;Membaca<br/>
+			<input type="checkbox" name="hobby" value="Menulis" checked />&nbsp;Menulis<br/>
+			<input type="checkbox" name="hobby" value="Memasak" />&nbsp;Memasak<br/>
+			<label>Pendidikan:</label>&nbsp;
+			<select name="pendidikan">
+				<option value="">-- Pilih Pendidikan --</option>
+				<option value="SMA">SMA</option>
+				<option value="D3">D3</option>
+				<option value="S1" selected>S1</option>
+				<option value="S2">S2</option>
+			</select><br/>
+			<label>Alamat Lengkap:</label>&nbsp;
+			<textarea name="alamatLengkap" cols="100" rows="5"></textarea>
+			<hr/>
+			<input type="submit" name="proses" value="simpan" />&nbsp;&nbsp;&nbsp;
+			<input type="reset" name="unproses" value="batal" />
+		</form>
+	</body>
+</html>

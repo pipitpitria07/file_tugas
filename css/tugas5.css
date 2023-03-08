@@ -1,0 +1,108 @@
+body{
+	background-color:#BF9270;
+	background-image:url('../image/iklan.jpg');
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
+	margin:0cm 3.5cm 0cm 2cm; /* searah jarum jam: margin atas,kanan,bawah,kiri */
+}
+h1{
+	color:#1C82AD;
+	text-transform:uppercase;
+	letter-spacing:5px;
+}
+hr{
+	border: #FFD8A9 2px;
+	margin:20px 0px;
+}
+p{
+	text-align:justify;
+	text-indent:0.5cm;
+	padding:20px;
+	color:#1C82AD;
+	line-height:0.5cm;
+	word-spacing:5px;
+	font-size:14pt;
+}
+fieldset,legend,img{ /* groupping */
+	border:#2C74B3 5px outset;
+	padding:10px;
+	background-color:#F5EAEA;
+	color:#F1A661;
+}
+*{ /* universal */
+	font-family: 'Times New Roman', Times, serif;
+}
+/*-----------pseudo class-----------*/
+div#menu a:link, a:visited{
+	text-decoration:none;
+	border:2px solid #2B3467;
+	padding:5px;
+	background-color:#BAD7E9;
+	margin:0px 5px;
+}
+div#menu a:hover{
+	text-decoration:none;
+	border:2px solid ##D3756B;
+	padding:5px;
+	background-color:#FCE22A;
+	margin:0px 5px;
+}
+div#menu a:active{
+	text-decoration:none;
+	border:2px solid #D3756B;
+	padding:25px;
+	background-color:yellow;
+	margin:0px 5px;
+}
+div#menu{
+	text-align:center;
+}
+#atas, #bawah{
+	text-align:right;
+}
+p.panah_atas a:link, a:visited{
+	text-decoration:none;
+	font-size:25pt;
+	color: #FFB26B;
+	font-weight:bolder;
+}
+p.panah_bawah a:link, a:visited{
+	text-decoration:none;
+	font-size:25pt;
+	color:#FFB26B;
+	font-weight:bolder;
+}
+p.panah_atas a:hover{
+	text-decoration:none;
+	font-size:50pt;
+	color:#FFB26B;
+	font-weight:bolder;
+}
+p.panah_bawah a:hover{
+	text-decoration:none;
+	font-size:50pt;
+	color:#FFB26B;
+	font-weight:bolder;
+}
+p.p2{
+	text-align:justify;
+	color:#FFB26B;
+	text-indent:0cm;
+}
+/*----------------pseudo element-----------------*/
+p.p2:first-letter{
+	font-size:50pt;
+	font-family:consolas, calibri, cambria;
+	float:left;
+	padding-top:20px;
+	padding-right:10px;
+	padding-bottom:10px;
+	color:#FFB26B;
+}
+p.p2:first-line{
+	font-family:consolas, calibri, cambria;
+	background-color:yellowgreen;
+	color:white;
+	font-style:italic;
+}
